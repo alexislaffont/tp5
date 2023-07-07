@@ -1,0 +1,18 @@
+
+  h1 {
+     color: blue;
+     position: relative;
+     top: 50px;
+     left: 300px;
+     font-size: 50px
+    }
+  p {
+     color: red; 
+     position: relative;
+     top: 50px;
+     left: 300px;
+     font-size: 20px
+    }
+    body{
+      background-color: black;
+    }

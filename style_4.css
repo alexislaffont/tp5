@@ -1,0 +1,22 @@
+.zoom_imagen {
+    width: 300px;
+    transition: transform 0.3s;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.zoom_imagen:hover {
+    transform: scale(2);
+    z-index: 2;}

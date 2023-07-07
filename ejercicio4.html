@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <link rel="stylesheet" type="text/css" href="style_4.css">
+</head>
+<body>
+    <img src="https://tse1.mm.bing.net/th?id=OIP.FEC2GBADKHaYqqerfdCqnQHaEo&pid=Api&P=0&h=180"alt="imagen 2"class="zoom_imagen">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.0EgZEdnR-B6WuGK4_cHSiwHaE8&pid=Api&P=0&h=180" alt="imagen 1"class="zoom_imagen">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.LFWrKUA3Wk1qNkgTzsOiegHaEo&pid=Api&P=0&h=180" alt="Imagen 3" class="zoom_imagen">
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+  var images = document.querySelectorAll('.zoom_imagen');
+
+  images.forEach(function(image) {
+    image.addEventListener('mouseenter', function() {
+        image.classList.add('zoomed');
+      
+    });
+
+    image.addEventListener('mouseleave', function() {
+        image.classList.remove('zoomed');
+    });
+  });
+});
+</script>
+
+
+</body>
+</html>
